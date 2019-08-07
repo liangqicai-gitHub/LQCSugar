@@ -1,0 +1,6 @@
+framework module Pods_LQCSugar_Tests {
+  umbrella header "Pods-LQCSugar_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module LQCSugar {
+  umbrella header "LQCSugar-umbrella.h"
+
+  export *
+  module * { export * }
+}

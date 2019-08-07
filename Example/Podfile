@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LQCSugar_Example' do
+  pod 'LQCSugar', :path => '../'
+
+  target 'LQCSugar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
