@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/liangqicai-gitHub/LQCSugar'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '2468751795@qq.com' => 'liangqicai@haiermoney.com' }
+  s.author           = { '2468751795@qq.com' => 'liangqicai' }
   s.source           = { :git => 'https://github.com/liangqicai-gitHub/LQCSugar.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
