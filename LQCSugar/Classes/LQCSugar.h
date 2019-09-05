@@ -18,6 +18,8 @@
 #import "UIView+LQCBorder.h"
 #import "UIView+LQCSeparateLine.h"
 #import "NSDictionary+LQCUsual.h"
+#import "CenterAlterView.h"
+#import "ButtomAlter.h"
 
 
 #endif /* LQCSugar_h */
