@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LQCSugar'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'LQCSugar.'
 
 # This description is used to generate tags and improve search results.
@@ -41,7 +41,7 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
 
   s.frameworks = 'UIKit'
-  s.dependency 'AFNetworking', '~> 3.2.1'
-  s.dependency 'Masonry', '~> 1.1.0'
+  #s.dependency 'AFNetworking', '~> 3.2.1'
+  #s.dependency 'Masonry', '~> 1.1.0'
   # s.dependency 'ReactiveObjC', '~> 3.1.1'
 end
