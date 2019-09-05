@@ -11,6 +11,7 @@
 #endif
 
 #import "NSArray+LQCUsual.h"
+#import "NSDictionary+LQCUsual.h"
 #import "NSString+LQCRegular.h"
 #import "NSString+LQCUsual.h"
 #import "UIColor+LQCUsual.h"

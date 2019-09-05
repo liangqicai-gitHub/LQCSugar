@@ -43,5 +43,5 @@ TODO: Add long description of the pod here.
   s.frameworks = 'UIKit'
   s.dependency 'AFNetworking', '~> 3.2.1'
   s.dependency 'Masonry', '~> 1.1.0'
-  s.dependency 'ReactiveObjC', '~> 3.1.1'
+  # s.dependency 'ReactiveObjC', '~> 3.1.1'
 end

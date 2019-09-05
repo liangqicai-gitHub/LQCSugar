@@ -14,12 +14,10 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - LQCSugar (0.1.0):
+  - LQCSugar (0.1.2):
     - AFNetworking (~> 3.2.1)
     - Masonry (~> 1.1.0)
-    - ReactiveObjC (~> 3.1.1)
   - Masonry (1.1.0)
-  - ReactiveObjC (3.1.1)
 
 DEPENDENCIES:
   - LQCSugar (from `../`)
@@ -28,7 +26,6 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - Masonry
-    - ReactiveObjC
 
 EXTERNAL SOURCES:
   LQCSugar:
@@ -36,10 +33,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  LQCSugar: a42da1b9b5db9a1b58cc4aadbe89430ab55270ae
+  LQCSugar: bede87dc2f68e12974c87c73f15acc4ec7d43879
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
 
 PODFILE CHECKSUM: 573f8ff37d4d437981cc32aa0838d6ab1914a4ff
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.5
