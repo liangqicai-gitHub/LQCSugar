@@ -11,9 +11,9 @@
 		0162A62564D7C18DFE593434F3EA70CE /* NSArray+LQCUsual.h in Headers */ = {isa = PBXBuildFile; fileRef = E0D9B13B6EBCC3B7CDF24DCB810BFE42 /* NSArray+LQCUsual.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0254EABA2D0AACFBFA5E2BAD753C5E2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE87B3EB807F3B98311F33627C6B9B27 /* Foundation.framework */; };
 		04C3E0AD2320EA120055AF76 /* CenterAlterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C3E0AB2320EA120055AF76 /* CenterAlterView.m */; };
-		04C3E0AE2320EA120055AF76 /* CenterAlterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C3E0AC2320EA120055AF76 /* CenterAlterView.h */; };
+		04C3E0AE2320EA120055AF76 /* CenterAlterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C3E0AC2320EA120055AF76 /* CenterAlterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04C3E0B12320EB0F0055AF76 /* ButtomAlter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C3E0AF2320EB0F0055AF76 /* ButtomAlter.m */; };
-		04C3E0B22320EB0F0055AF76 /* ButtomAlter.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C3E0B02320EB0F0055AF76 /* ButtomAlter.h */; };
+		04C3E0B22320EB0F0055AF76 /* ButtomAlter.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C3E0B02320EB0F0055AF76 /* ButtomAlter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09E2F57C3C2B897ACC8AF5C49F1E9592 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E7628EEE01D7042D688DC551E3318EC /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09E785555B549DE5974C744DB8324B91 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D01B7B6EC8541120E87BDC65C63EC5BE /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A5C3BE6CD37CDA1E31CD641508E3016 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B64E1D185A7A6B50E4DEC5A0D9513AC5 /* NSArray+MASAdditions.m */; };

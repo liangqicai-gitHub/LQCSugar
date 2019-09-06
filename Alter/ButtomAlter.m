@@ -7,6 +7,20 @@
 //
 
 #import "ButtomAlter.h"
+#import <Masonry/Masonry.h>
+
+#ifndef dispatch_queue_async_safe
+#define dispatch_queue_async_safe(queue, block)\
+if (strcmp(dispatch_queue_get_label(DISPATCH_CURRENT_QUEUE_LABEL), dispatch_queue_get_label(queue)) == 0) {\
+block();\
+} else {\
+dispatch_async(queue, block);\
+}
+#endif
+
+#ifndef dispatch_main_async_safe
+#define dispatch_main_async_safe(block) dispatch_queue_async_safe(dispatch_get_main_queue(), block)
+#endif
 
 @implementation ButtomAlter
 
@@ -64,7 +78,7 @@
 - (void)dismissAnimation:(BOOL)animation block:(void (^)(void))block{
     if (animation){
         [UIView animateWithDuration:0.25 animations:^{
-            self.contentView.transform = CGAffineTransformMakeTranslation(0, self.contentView.height - 16);
+            self.contentView.transform = CGAffineTransformMakeTranslation(0, self.contentView.frame.size.height - 16);
             self.backgroundColor = [UIColor clearColor];
         }completion:^(BOOL finished) {
             [self removeFromSuperview];
