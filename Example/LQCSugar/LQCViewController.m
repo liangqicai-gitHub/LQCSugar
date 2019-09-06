@@ -18,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+//    CenterAlterView *ss = [[CenterAlterView alloc] init]
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
