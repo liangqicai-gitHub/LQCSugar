@@ -1,21 +1,5 @@
 PODS:
-  - AFNetworking (3.2.1):
-    - AFNetworking/NSURLSession (= 3.2.1)
-    - AFNetworking/Reachability (= 3.2.1)
-    - AFNetworking/Security (= 3.2.1)
-    - AFNetworking/Serialization (= 3.2.1)
-    - AFNetworking/UIKit (= 3.2.1)
-  - AFNetworking/NSURLSession (3.2.1):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.2.1)
-  - AFNetworking/Security (3.2.1)
-  - AFNetworking/Serialization (3.2.1)
-  - AFNetworking/UIKit (3.2.1):
-    - AFNetworking/NSURLSession
-  - LQCSugar (0.1.2):
-    - AFNetworking (~> 3.2.1)
+  - LQCSugar (0.1.5):
     - Masonry (~> 1.1.0)
   - Masonry (1.1.0)
 
@@ -24,7 +8,6 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - AFNetworking
     - Masonry
 
 EXTERNAL SOURCES:
@@ -32,8 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  LQCSugar: bede87dc2f68e12974c87c73f15acc4ec7d43879
+  LQCSugar: 49a2e4d12d5bf6aa6753876de7066951eb58ca9e
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 573f8ff37d4d437981cc32aa0838d6ab1914a4ff

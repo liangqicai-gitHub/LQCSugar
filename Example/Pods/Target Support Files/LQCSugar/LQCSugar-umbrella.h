@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "ButtomAlter.h"
+#import "CenterAlterView.h"
 #import "NSArray+LQCUsual.h"
 #import "NSDictionary+LQCUsual.h"
 #import "NSString+LQCRegular.h"
